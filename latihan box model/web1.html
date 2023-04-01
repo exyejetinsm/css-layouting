@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web 1</title>
+    <link rel="stylesheet" href="style/web1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="header">
+        <h1 class="judul">My website</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Prjocet</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </section>
+      <section class="hero"></section>
+      <section class="content cf">
+        <div class="main">
+          <h2>Judul Artikel</h2>
+          <p class="penulis">
+            Ditulis Oleh : <a href="#" class="fadhlan">Muhammad Fadhlan</a>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut error
+            veniam atque sequi quis reprehenderit nesciunt enim nisi rerum quia,
+            ea facere tenetur. Sunt magni est dolores sapiente minus excepturi?
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            praesentium iste atque iure voluptatem nihil, placeat tempore culpa
+            recusandae unde esse voluptate amet similique omnis deserunt
+            doloribus provident quis tempora. Asperiores repellat reprehenderit
+            beatae, aspernatur minima exercitationem? Rerum animi officia cumque
+            nemo. Aut dicta odit magni laudantium? Eos, dolorum non ut sunt
+            adipisci ratione perspiciatis fuga quibusdam modi commodi delectus
+            quaerat explicabo placeat debitis dicta cupiditate repellat beatae
+            tempore repudiandae? Atque ad suscipit magni. Tempore et molestiae
+            eligendi culpa repellendus ipsum ratione odit cum, voluptatem
+            explicabo modi quisquam fuga optio cupiditate esse repellat
+            adipisci. Tempore necessitatibus excepturi repellat eos nostrum?
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+            nemo. Ducimus nisi quas perspiciatis sed fugiat ad aspernatur a
+            tempore quisquam numquam, distinctio tempora odit iusto culpa
+            veritatis, dolorum reiciendis! Ullam, perspiciatis. Amet, iste sint
+            nisi earum dolores labore modi voluptatum facilis quidem quisquam
+            mollitia natus ipsa odit nemo quas adipisci fugiat quos? Ducimus
+            dolore aperiam enim magnam, placeat voluptatibus saepe ullam minima
+            laboriosam est, ratione inventore sequi eveniet sapiente alias! Cum
+            modi deserunt, illo id obcaecati quaerat labore neque?
+          </p>
+        </div>
+        <div class="sidebar">
+          <h3>Tentang Penulis</h3>
+          <img src="img/profil-pict.png" alt="Muhammad Fadhlan" />
+          <p>
+            Lorem ipsum dolor sit amet sfsff fg consectetur adipisicing elit.
+            Sapiente ad consequuntur voluptate laboriosam porro totam rerum
+            cumque dolore illo modi.
+          </p>
+        </div>
+      </section>
+      <section class="footer">
+        <p class="copy">Copyright 2023. Muhamad Fadhlan.</p>
+      </section>
+      <!-- case 'igdl':
+			if (!text) return m.reply(`Example: ${prefix + command} https://www.instagram.com/p/CNtpwxuH5NK/?igshid=g26k5coikzwr`)
+m.reply(mess.wait)              
+axios.get(`https://saipulanuar.ga/api/downloader/instagram?url=${args[0]}`).then(({ data }) => {
+var url = data.result.url
+let judul = data.result.title
+if (url.includes('.mp4')) {
+XeonBotInc.sendMessage(from, { video: { url:url },caption: `SUDAH KAK ${pushname}
+Judul: ${judul} `,mimetype: 'video/mp4' })
+} else {
+XeonBotInc.sendMessage(from, { image: { url:url },caption: `SUDAH KAK ${pushname}
+Judul: ${judul} `,mimetype: 'image/jpeg' })
+}
+// XeonBotInc.sendMessage(from, {video: {url:url}, caption: `SUDAH KAK ${pushname}
+// Judul: ${judul} `,quoted: m})
+			})
+			break
+case 'igdl-foto':
+			if (!text) return m.reply(`Example: ${prefix + command} https://www.instagram.com/p/CNtpwxuH5NK/?igshid=g26k5coikzwr`)
+m.reply(mess.wait)              
+axios.get(`https://saipulanuar.ga/api/downloader/instagram?url=${args[0]}`).then(({ data }) => {
+var url = data.result.url
+let judul = data.result.title
+XeonBotInc.sendMessage(from, {image: {url:url}, caption: `SUDAH KAK ${pushname}
+Judul: ${judul} `,quoted: m})
+			})
+			break
+       case 'tiktok':
+			if (!text) return m.reply(`Contoh: ${prefix + command} https://vt.tiktok.com/ZS8pUSWAC/`)
+m.reply(mess.wait)
+axios.get(`https://lanzzz-api.onrender.com/api/dowloader/tikok?url=${args[0]}&apikey=ea57a582`).then(({ data }) => {
+				var url = data.result.video
+				XeonBotInc.sendMessage(m.chat, {video: {url:url}, caption: `SUDAH KAK ${pushname}`,footer:`By kak fadhlan bot`,quoted: fkontak, mention: [sender]})
+			})
+			break -->
+    </div>
+  </body>
+</html>

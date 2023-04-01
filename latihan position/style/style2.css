@@ -1,0 +1,41 @@
+body {
+  height: 2000px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.satu {
+  background-color: green;
+}
+
+.dua {
+  background-color: violet;
+  /* position: static; static, relative, absolute*/
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.tiga {
+  background-color: gold;
+}
+.iklan {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  line-height: 200px;
+  border-radius: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.container {
+  width: 800px;
+  height: 700px;
+  border: 2px solid black;
+  position: relative; /* agar kotak dua itu tidak keluar flow pakai relative biar sama posisi dimensinya kan dia pake absolute */
+  padding: 5px;
+}

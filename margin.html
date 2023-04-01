@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MARGIN</title>
+  <style>
+  * {
+    margin: 0;
+  }
+ /*  div {
+    display: inline-block; Inline block untuk menyamping ( horizontal ) dan blocknya agar bisa di ubah/atur ukurannya 
+  } */
+  div {
+    margin: 10px;
+  }
+    .satu {
+      width: 150px;
+      height: 150px;
+      background-color: red;
+      margin-bottom: -20px;
+      
+    }
+    .dua {
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+     
+    }
+    .tiga {
+      width: 50px;
+      height: 50px;
+      background-color: green;
+    }
+    .auto {
+      width: 100px;
+      background-color: purple;
+      margin: auto;
+      text-align: center;
+    }
+    /* Shorthand Margin
+ margin: 20px; ( semua kiri kanan atas bawah )
+ margin: 12px 14px ( atas bawah kiri kanan)
+ margin: 12px 22px 2px ( atas kiri-kanan bawah)
+ margin: 12px 54px 12px 20px ( sesuai jarum jam dari pukul 12)
+ */
+  </style>
+</head>
+<body>
+  <div class="satu">1</div>
+  <div class="dua">2</div>
+  <div class="tiga">3</div>
+  <div class="auto">MARGIN AUTO</div>
+<!-- VERTIKAL ( POTRAIT )
+ contoh : div dengan class satu itu margin-bottom nya 140px. dan div dengan class dua itu di pakein margin-top sebesar 30px. jadi dia akan ngambil angka terbesar. jadi tidak di tambahkan valuenya kalau vertikal
+
+HORIZONTAL KEBALIKANNYA DARI VERTIKAL
+BERLAKU DI INLINE / INLINE-BLOCK
+-->
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dimensi & Obverflow</title>
+  <style>
+    .satu {
+      width: 200px;
+      height: 200px;
+      background-color: pink;
+    }
+    .dua {
+      width: 120%;
+      background-color: blue;
+    }
+    /* Obverflow */
+    
+    .text {
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      height: 120px;
+      background-color: yellow;
+      overflow: scroll; /* hidden, scroll, visible, scroll */
+    }
+    .text > p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- width dan height itu dimensi 
+ absolut = TETAP
+relative = TERHADAP BROWSER ( NGIKUTIN )
+  
+  -->
+  <div class="satu">Media Cetak</div>
+  <div class="dua">Div Kedua</div>
+  
+  <!-- OVERFLOW -->
+  
+  <div class="text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, sint earum nostrum quaerat odit doloribus saepe eos modi corporis fugiat. Modi magnam accusantium eum porro ad pariatur voluptas unde architecto?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias fugiat hic, aperiam ex, perferendis corporis porro. Qui asperiores enim minus deleniti quis adipisci suscipit. Corporis quisquam vitae, repudiandae sit obcaecati.</p>
+  </div>
+</body>
+</html>
