@@ -133,13 +133,60 @@ body {
   background-color: #858585;
   color: #333;
 }
-
+/* z-index hanya vberfungsi jika elemen yang kita gunakan itu ada properti position */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: aqua;
+  z-index: 1;
+  box-sizing: border-box;
+}
+ul.linked {
+  margin-left: 12px;
+}
+ul.linked li {
+  display: inline-block;
+  line-height: 60px;
+}
+ul.linked li a {
+  color: salmon;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #333;
+  padding: 9px;
+  border-radius: 30px;
+}
+ul.linked li a:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: salmon;
+  padding: 9px;
+  border-radius: 30px;
+  cursor: progress;
+}
 .container {
   width: 960px;
-  margin: auto;
+  margin: 80px auto 0 auto;
   background-color: #fff;
+  position: relative;
 }
-
+.twitter {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/twitter.png);
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+  position: absolute;
+  top: -18px;
+  right: -18px;
+}
 .header {
   padding: 20px;
 }
