@@ -26,3 +26,16 @@ body {
 h1 {
   margin-top: 60px;
 }
+
+/* Ini saya coba rangkum bedanya:
+1. Static = posisi apa adanya tidak bisa diatur (bukan margin & paddingnya tapi top, left, right, bottomnya, dan z-indexnya), kena scroll
+2. Relative = posisi bisa diatur, kena scroll, posisi awal dianggap ada
+3. Absolute = posisi bisa diatur, kena scroll, posisi awal dianggap hilang
+4. Fixed = posisi bisa diatur, anti scroll, posisi awal dianggap hilang.
+
+Kalau masalah contohnya silahkan uji coba sendiri, karena terlalu abstrak bila hanya dijelaskan seperti ini. Lakukan uji coba:
+- parent static - child relative
+- parent relative - child static
+- parent static - child absolute
+- parent absolute - child static
+dan seterusnya. uji coba sampai berpuluh2 kali hingga agan benar2 dapat bedanya. */

@@ -252,6 +252,9 @@ ul.linked li a:hover {
   background-color: #333;
   height: 40px;
   position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
   align-items: center;
 }
 .footer .copy {
